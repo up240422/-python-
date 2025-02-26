@@ -80,14 +80,63 @@ else:
 
 longitudPython = len("python")
 longitudDragon = len("dragon")
+print(longitudPython)
+print(longitudDragon)
 
+# 13. Utilice el operador and para comprobar si 'on' se encuentra tanto en 'python' como en 'dragon
+print("Ejercicio 13")
+print('on' in "python" and 'on' in "dragon" )
 
+# 14. Espero que este curso no esté lleno de jerga . Utilice el operador in para comprobar si hay jerga en la oración
+print("Ejercicio 14")
+print('jerga' in "Espero que este curso no esté lleno de jerga")
 
+# 15. No hay "on" tanto en dragon como en python
+print("Ejercicio 15")
+print(not 'on' in "python" and 'on' in "dragon")
 
+# 16. Encuentra la longitud del texto de Python y convierte el valor a flotante y conviértelo en cadena
+print("Ejercicio 16")
+lonPython = len("python")
+print(float(lonPython))
+print(type(float(lonPython)))
+print(str(lonPython))
+print(type(str(lonPython)))
 
+# 17. Los números pares son divisibles por 2 y el resto es cero. ¿Cómo comprobar si un número es par o no con Python?
+print("Ejercicio 17")
+numero = int(input("ingresa un numero: ")) 
+if numero % 2 == 0 :
+    print("numero par")
+else :
+    print("numero impar")
 
+# 18. Comprueba si la división del piso de 7 por 3 es igual al valor int convertido de 2,7.
+print("Ejercicio 18")
+print(7 // 3 == int(2.7)) 
 
+# 19. Check if type of '10' is equal to type of 10
+print("Ejercicio 19")
+print(type('10') == type(10))
 
+# 20. Check if int('9.8') is equal to 10
+print("Ejercicio 20")
+print(int(9.8) == 10)
+
+# 21. Escriba un script que solicite al usuario que ingrese horas y tarifa por hora. ¿Cómo calcular el salario de la persona?
+print("Ejercicio 21")
+hours = int(input("horas de trabajo: "))
+tarifa = int(input("tarifa por hora"))
+salario = hours * tarifa 
+print("tu salario es de: ", salario)
+
+# 22. Escriba un script que solicite al usuario que ingrese la cantidad de años. Calcule la cantidad de segundos que puede vivir una persona. Suponga que una persona puede vivir cien años.
+print("Ejercicio 22")
+years = int(input("Ingresa los years:"))
+life = years * 31540000
+print("tiempo de vida en segundos son: ", life)   
+
+#
 
 
 
