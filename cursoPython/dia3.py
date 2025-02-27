@@ -51,9 +51,9 @@ b = -2 # Intersección con el eje y
 # 0 = 2x - 2 => x = 1
 interseccion_x = -b / m
 
-print(f"Pendiente (m): {m}")
-print(f"Intersección con el eje y (b): (0, {b})")
-print(f"Intersección con el eje x: ({interseccion_x}, 0)")
+print("Pendiente (m): {m}")
+print("Intersección con el eje y (b): (0, {b})")
+print("Intersección con el eje x: ({interseccion_x}, 0)")
 
 
 # La pendiente es (m = y2-y1/x2-x1). Halla la pendiente y la distancia euclidiana entre el punto (2, 2) y el punto (6, 10)
@@ -136,7 +136,15 @@ years = int(input("Ingresa los years:"))
 life = years * 31540000
 print("tiempo de vida en segundos son: ", life)   
 
-#
+# 23. Write a Python script that displays the following table
+print("Ejercicio 23")
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
+
+
 
 
 
